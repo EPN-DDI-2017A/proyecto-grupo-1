@@ -1,0 +1,36 @@
+estimados compañeros:
+Para continuar haciendo el proyecto de diseño,
+
+primero la estructura del proyecto estará subido en github.
+
+segundo NO DEBEN HACER CAMBIOS EN EL DOCUMENTO PLANTILLA
+	del proyecto porque solo les va a servir como guia
+        para hacer su parte que les indicaré y evitar conflicto
+	en el repositorio.
+
+tercero TAREAS PARA EL VIERNES
+Tato: hacer la fila de servicios necesito que pienses en como
+      atraer al cliente esa parte es para describir lo que hace
+      la aplicacion puedes poner imagenes o lo que sea pero
+      siguiendo la misma estructura. 
+Carlitos: hacer la fila de Ranking en esta fila debes poner algo
+	  de animaciones especificamente en los botones "GO"
+	  no te preocupes con lo que harás eso ya esta en la
+	  plantilla instalado y solo debes saber como usarlo,
+	  la herramienta es animate.css mira lo que puedes hacer..
+Pilar: hacer la fila de menu e informacion esta fila es porque
+       tienes el video y el logo y necesito que tambien uses 
+       animate.css para animar la parte de la busqueda del icono
+       de la lupa no te pido que hagas lo del inicio de sesion 
+       solo esa fila.
+Henry: terminar la parte del formulario footer y el footer,
+       e intentaré la parte del scroll-top y lo del inicio 
+       de sesion.
+Nota: si alguien quiere añadir algo mas o no see alguna cosa mas
+      alguna observacion lo notifican en el grupo de fb para opinar
+
+cuarto el dia viernes vamos a unificar toda la funcionalidad
+        para presentar pero quiero que ya tengan hecho TODO
+	para no tener que perder el tiempo maximo en lo que
+	quiero perder tiempo es en colores o algo asii, detalles
+	nada mas por favor
