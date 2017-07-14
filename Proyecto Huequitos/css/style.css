@@ -1,0 +1,63 @@
+#t1 {
+    color: #bd4147;
+}
+
+#t3 {
+    color: #bd4147;
+}
+
+#t2 {
+    color: #bd4147;
+}
+
+#s1{
+    color: #eb9316;
+}
+
+#s2{
+    color: #eb9316;
+}
+#s3{
+    color: #eb9316;
+}
+
+
+#bt1{
+    background-color: #f0ad4e;
+    border: solid 2px #ec971f;
+    height: 45px;
+    color: black;
+}
+
+
+#bt2{
+    background-color: #f0ad4e;
+    border: solid 2px #ec971f;
+    height: 45px;
+    color: black;
+}
+
+#bt3{
+    background-color: #f0ad4e;
+    border: solid 2px #ec971f;
+    height: 45px;
+    color: black;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+}
+
+.line{
+    width: 350px;
+    height: 2px;
+    background-color: #bd4147;
+}
+.tittle{
+    color: #843534;
+}
+.card{
+    border: solid 2px #e4b9b9;
+    border-radius: 20px;
+}
