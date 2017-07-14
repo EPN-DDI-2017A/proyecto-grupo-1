@@ -1,6 +1,7 @@
 body{
     position: relative;
     overflow-y: scroll;
+    font-family: 'PT Sans Caption', sans-serif;
 }
 #t1 {
     color: #bd4147;
@@ -101,10 +102,15 @@ body{
 .footericons{
     background-color: black;
     border: 1px solid black;
+
 }
 
 .font{
     color: white;
+}
+
+.final{
+    font-size: 15px;
 }
 .h1s{
     border-top: 6px solid white;
@@ -155,7 +161,7 @@ body{
 }
 
 .fa:hover{
-    color: yellow;
+    color: darkorange;
 }
 
 
@@ -209,6 +215,10 @@ body{
 
 .busqueda p {
     color: darkgoldenrod;
+}
+
+#servicios h1{
+    color:black;
 }
 
 no-video .video-container video,

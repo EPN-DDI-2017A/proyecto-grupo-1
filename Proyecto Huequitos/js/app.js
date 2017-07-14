@@ -19,7 +19,7 @@ $(document).ready(function () {
         '</div>'+
         '<div class="form-group row justify-content-end">'+
         '<div class="boton">'+
-        '<button type="submit" class="btn btn-primary">Iniciar Sesion</button>'+
+        '<button type="submit" class="btn" style="background: orange; border: none; color: white">Iniciar Sesion</button>'+
         '</div>'+
         '</div>'+
         '</form>'+
