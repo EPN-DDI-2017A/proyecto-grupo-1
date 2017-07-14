@@ -1,3 +1,7 @@
+body{
+    position: relative;
+    overflow-y: scroll;
+}
 #t1 {
     color: #bd4147;
 }
@@ -83,7 +87,7 @@
     border-radius: 0px;
     width: 315px;
     background-color: rgba(255, 255, 255, 0.33);
-    border: 2px solid black;
+    border: 2px solid crimson;
 }
 .boton{
     -webkit-box-flex: 0;
@@ -95,6 +99,7 @@
     letter-spacing: 3px;
 }
 .footericons{
+    background-color: black;
     border: 1px solid black;
 }
 
@@ -153,3 +158,89 @@
     color: yellow;
 }
 
+
+.menu nav{
+    background: transparent;
+}
+
+#navbarNavAltMarkup a{
+    color: rgba(255, 187, 145, 0.7);
+    /*color: rgba(255, 103, 8, 0.9);*/
+    border-right: solid crimson;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: underline rgba(255, 187, 145, 0.7);
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 18px;
+}
+
+#navbarNavAltMarkup a:hover{
+    color: rgba(255, 103, 8, 0.9);
+    text-decoration: none;
+}
+/*.navbar-toggleable-md {
+    margin-left: 423px;
+}*/
+/*@media (min-width: 10px) {
+    #navbarNavAltMarkup a{
+        color: blue;
+    }
+}*/
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+
+.busqueda h1{
+    color:crimson;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.busqueda h2{
+    color: white;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.busqueda i {
+    color: rgba(255, 103, 8, 0.9);
+}
+
+.busqueda p {
+    color: darkgoldenrod;
+}
+
+no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: white;
+}
+
+.video-container .filter {
+    z-index:100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+    opacity: 1;
+}
