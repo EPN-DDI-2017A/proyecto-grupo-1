@@ -145,15 +145,6 @@ hr{
 #footer .tittle{
     color: #843534;
 }
-#footer .titulos{
-     padding-left: 9em !important;
-}
-#servicios .titulos{
-    padding-left: 8em !important;
-}
-#ranking .titulos{
-    padding-left: 5em !important;
-}
 #footer .titulos hr{
     width: 100%;
 }
@@ -276,4 +267,103 @@ hr{
 .botonGO{
     margin-top: -40px;
     margin-right: -33px;
+}
+
+@media (max-width: 575px) {
+    #footer .titulos{
+        padding-left: 1em !important;
+    }
+    #servicios .titulos{
+        padding-left: 1em !important;
+    }
+    #ranking .titulos{
+        padding-left: 1em !important;
+    }
+    .jumbotron h2{
+        font-size: 1.5em;
+    }
+    .jumbotron h1{
+        font-size: 2em;
+    }
+    .jumbotron .fa-5x{
+        font-size: 2em;
+    }
+    .jumbotron p{
+        margin-top: 0rem !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #footer .titulos{
+        padding-left: 1em !important;
+    }
+    #servicios .titulos{
+        padding-left: 1em !important;
+    }
+    #ranking .titulos{
+        padding-left: 1em !important;
+    }
+    .jumbotron h2{
+        font-size: 1.5em;
+    }
+    .jumbotron h1{
+        font-size: 2em;
+    }
+    .jumbotron .fa-5x{
+        font-size: 2em;
+    }
+    .jumbotron p{
+        margin-top: 0rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #footer .titulos{
+        padding-left: 9em !important;
+    }
+    #servicios .titulos{
+        padding-left: 8em !important;
+    }
+    #ranking .titulos{
+        padding-left: 5em !important;
+    }
+    .jumbotron h2{
+        font-size: 2.5em;
+    }
+    .jumbotron h1{
+        font-size: 3em;
+    }
+    .jumbotron .fa-5x{
+        font-size: 3em;
+    }
+    .jumbotron p{
+        margin-top: 0rem !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #footer .titulos{
+        padding-left: 9em !important;
+    }
+    #servicios .titulos{
+        padding-left: 8em !important;
+    }
+    #ranking .titulos{
+        padding-left: 5em !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    #footer .titulos{
+        padding-left: 9em !important;
+    }
+    #servicios .titulos{
+        padding-left: 8em !important;
+    }
+    #ranking .titulos{
+        padding-left: 5em !important;
+    }
+
 }
