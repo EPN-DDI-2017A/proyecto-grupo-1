@@ -58,14 +58,13 @@ body{
     background-color: #bd4147;
 }
 .tittle{
-    padding-left: 5rem !important;
     color: #843534;
 }
-.linetittle{
-    margin-left: 5rem !important;
-    width: 350px;
+hr{
+    width: 100%;
     height: 2px;
     background-color: #bd4147;
+    margin-left:0px;
 }
 .card{
     border: solid 2px #e4b9b9;
@@ -134,7 +133,6 @@ body{
 }
 
 #servicios .tittle{
-    padding-left: 7rem !important;
     color: #843534;
 }
 #servicios .linetittle{
@@ -145,8 +143,23 @@ body{
 }
 
 #footer .tittle{
-    padding-left: 8rem !important;
     color: #843534;
+}
+#footer .titulos{
+     padding-left: 9em !important;
+}
+#servicios .titulos{
+    padding-left: 8em !important;
+}
+#ranking .titulos{
+    padding-left: 5em !important;
+}
+#footer .titulos hr{
+    width: 100%;
+}
+
+#footer .contactos hr{
+    width: 100%;
 }
 
 #footer h1{
@@ -175,7 +188,7 @@ body{
 #servicios{
     background-image: url("../img/fondo.jpg");
     background-color: black;
-    height: 700px;
+
 }
 
 #servicios .imgCircular{
@@ -208,7 +221,6 @@ body{
 .columnaNegro{
     background-color: black;
     opacity:0.6;
-    height: 90%;
 }
 #navbarNavAltMarkup a{
     color: rgba(255, 103, 8, 0.9);
