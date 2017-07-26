@@ -3,6 +3,7 @@
  */
 $(document).ready(function () {
     console.log("Hola jquery!!");
+    // codigo de popover
     var currentTime = new Date()
     var year = currentTime.getFullYear();
     $('#fecha').html(year);
@@ -25,8 +26,9 @@ $(document).ready(function () {
         '</form>'+
         '</div>'
     })
-    scaleVideoContainer();
 
+    //video codigo jquery
+    scaleVideoContainer();
     initBannerVideoSize('.video-container .poster img');
     initBannerVideoSize('.video-container .filter');
     initBannerVideoSize('.video-container video');
@@ -37,7 +39,6 @@ $(document).ready(function () {
         scaleBannerVideoSize('.video-container .filter');
         scaleBannerVideoSize('.video-container video');
     });
-
     function scaleVideoContainer() {
 
         var height = $(window).height() + 5;
@@ -45,7 +46,6 @@ $(document).ready(function () {
         $('.homepage-hero-module').css('height',unitHeight);
 
     }
-
     function initBannerVideoSize(element){
 
         $(element).each(function(){
@@ -56,7 +56,6 @@ $(document).ready(function () {
         scaleBannerVideoSize(element);
 
     }
-
     function scaleBannerVideoSize(element){
 
         var windowWidth = $(window).width(),
@@ -83,4 +82,16 @@ $(document).ready(function () {
 
         });
     }
+
+    // mouseover sobre lupita
+    $( "i.mouseencima" )
+        .mouseover(function(){
+            $(this).removeClass("slideInDown")
+            $(this).addClass("infinite tada")
+        })
+        .mouseout(function() {
+            $(this).removeClass("infinite")
+        });
+
+
 });
