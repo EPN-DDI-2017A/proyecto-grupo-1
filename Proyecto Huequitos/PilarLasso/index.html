@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -497,7 +497,10 @@
         var myLatLng8 = {lat: -0.2083240329667429, lng: -78.490831553936};
         var mapOptions = {
             zoom:17,
-            center:myLatLng
+            center:myLatLng,
+	    scrollwheel: false,
+            disableDoubleClickZoom: true,
+            draggable: false
         }
 
         var map = new google.maps.Map(document.getElementById('map'), mapOptions);
