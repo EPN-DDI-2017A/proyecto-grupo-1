@@ -92,6 +92,5 @@ $(document).ready(function () {
         .mouseout(function() {
             $(this).removeClass("infinite")
         });
-
-
 });
+
