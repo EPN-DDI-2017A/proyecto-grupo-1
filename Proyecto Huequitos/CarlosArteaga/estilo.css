@@ -121,11 +121,6 @@ hr{
 .footertexto{
     letter-spacing: 3px;
 }
-.footericons{
-    background-color: black;
-    border: 1px solid black;
-
-}
 
 .final{
     font-size: 15px;
@@ -164,6 +159,12 @@ hr{
 }
 #footer .titulos hr{
     width: 100%;
+}
+
+.footericonsRegistro{
+    background-color: black;
+    border: 1px solid black;
+    margin-top: -7px;
 }
 
 #footer .contactos hr{
