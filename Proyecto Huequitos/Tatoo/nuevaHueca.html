@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Perfil Hueca</title>
+    <title>Nueva Hueca</title>
     <link rel="stylesheet" href="../css/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/new-hueca.css">
@@ -63,11 +63,53 @@
                 ></textarea>
             </div>
             <div class="col">
-                <label for="atencion" class="col-6 col-form-label">Horario de Atencion</label>
+                <label for="atencion" class="col-6 col-form-label">Atencion</label>
                 <textarea class="form-control" id="atencion" rows="3" placeholder="Abierto cada día desde el 18 de marzo hasta el 31 de octubre cerrado los lunes"></textarea>
             </div>
         </div>
+        <div class="form-group row">
+            <div class="col">
+                <label class="col col-form-label">Horarios de Comidas</label>
+                <div class="form-check ">
+                    <label class="form-check-label mt-1 mr-4">
+                        <input type="radio" class="form-check-input" name="optionsRadios" value="option1" checked>
+                        General
+                    </label>
+                    <label class="form-check-label mt-1 mr-4">
+                        <input type="radio" class="form-check-input" name="optionsRadios"  value="option2" checked>
+                        Desayuno
+                    </label>
+                    <label class="form-check-label mt-1 mr-4">
+                        <input type="radio" class="form-check-input" name="optionsRadios"  value="option3" checked>
+                        Almuerzo
+                    </label>
+                    <label class="form-check-label mt-1">
+                        <input type="radio" class="form-check-input" name="optionsRadios"  value="option4" checked>
+                        Cena
+                    </label>
+                </div>
+                <textarea class="form-control" id="time" rows="2" placeholder="de 11.00 a 12.00 h (Lunes a Sabado) 10:00 a 11.30 (Domingo)">
+                </textarea>
+            </div>
+            <div class="col pl-5 ">
+                <label class="col col-form-label">Carta</label>
+                <div class="form-group row">
+                    <select class=" col-4 form-control" >
+                        <option>Postres</option>
+                        <option>Entrada</option>
+                        <option>Comida Rapida</option>
+                    </select>
+                    <button type="button" class="btn btn-danger mr-3 mb-3 ml-3 mt-2 pl-1 pr-1 pt-0 pb-0">+</button>
+                </div>
+                <div class="form-group row">
+                    <input type="text" class="col-10 form-control" placeholder="Helado de Chocolate">
+                    <button type="button" class="btn btn-danger mr-3 mb-3 ml-3 mt-2 pl-1 pr-1 pt-0 pb-0">+</button>
+                </div>
+            </div>
+        </div>
     </form>
+
+    <button type="submit" class="btn btn-danger mb-2">Registrar</button>
 </div>
 
 <!--FOOTER-->
