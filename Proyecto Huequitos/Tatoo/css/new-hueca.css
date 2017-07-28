@@ -1,0 +1,50 @@
+body {
+    background-color: #232323;
+    color: white;
+}
+body:after {
+    content: "CREATE A NEW HUEQUITO";
+    font-size: 5em;
+    color: rgba(72, 72, 72, 0.4);
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    -ms-pointer-events: none;
+    -o-pointer-events: none;
+    pointer-events: none;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.form-control{
+    background-color: #232323;
+    color: gainsboro;
+    border-color:#B2493D;
+}
+
+.form-control:focus {
+    color: #B2493D;
+    background-color: white;
+    border:2px solid #B2493D;
+    outline: none;
+}
+
+.form-control-file{
+    color: gainsboro;
+    font-size: small;
+}
+
