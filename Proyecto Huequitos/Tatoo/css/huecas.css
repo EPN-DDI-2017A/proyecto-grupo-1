@@ -1,0 +1,139 @@
+.sidebar{
+    background-color: #232323;
+}
+
+.branding{
+    font-family: Georgia, serif;
+    text-align: center;
+    margin: 40px 0;
+    color: #666;
+    font-style: italic;
+}
+
+.supertitle{
+    font-size: .9em;
+}
+.site-location{
+    font-size: .75em;
+    line-height: 1.35em;
+
+}
+.title{
+    background: url(../img/nameplace.png) no-repeat;
+    background-size: 240px 110px;
+    background-position: center;
+    height: 110px;
+    margin: 15px 0;
+    opacity: 1;
+}
+
+.menu-side {
+    text-align: center;
+    margin: 0 0 35px;
+    padding: 0;
+    list-style: none;
+    font-family: 'Agency FB', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.calendar{
+    font-size: .7em;
+    line-height: 1.3em;
+    width: 80%;
+    margin: 0 auto 35px;
+    color: white;
+}
+
+.schedule{
+    list-style: none;
+    margin: 0 0 35px;
+    padding: 0;
+    color: #999;
+}
+
+.schedule li{
+    background-color: #303030;
+    margin-bottom: 3px;
+    padding: 3px 5px;
+}
+
+.schedule b{
+    font-weight: bold;
+    color: #B2493D;
+}
+
+.format-image{
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    width: 1499px;
+    z-index: -999998;
+    position:absolute;
+}
+
+.img{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 1499px;
+    height: 899.4px;
+    max-width: none;
+    z-index: -999999;
+    left: 0px;
+    top: -199.7px;
+    position:absolute;
+}
+
+.welcome{
+    width: 100%;
+    text-align: center;
+    background-color: #B2493E;
+    color: #eee;
+    padding: 12px 0;
+    margin-top: 500px;
+    line-height: 1.35em;
+}
+
+.welcome h1{
+    font: 1.9em/1.2em 'Agency FB', sans-serif;
+}
+
+.welcome h3{
+    font: italic .9em/1.2em Georgia, serif;
+}
+
+
+.description{
+    background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.content{
+    margin-bottom: 1.5em;
+    font-size: .8em;
+}
+
+.why{
+    margin-bottom: 25px;
+
+}
+
+#quest{
+    font-size: .8em;
+    font: 1.3em/1.3em 'Agency FB',sans-serif;
+    color: #B2493E;
+    text-transform: uppercase;
+}
+
+#list li{
+    font-size: .8em;
+    margin-bottom: 8px;
+}
