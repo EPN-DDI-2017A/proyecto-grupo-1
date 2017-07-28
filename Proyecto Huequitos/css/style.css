@@ -424,3 +424,16 @@ hr{
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
+.hueca h3{
+    color: crimson;
+    font-size: 24px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: 400;
+ }
+
+.hueca h4{
+    color:#3E426C;
+    font-size: 15px;
+    font-family: 'Varela Round', sans-serif;
+}
