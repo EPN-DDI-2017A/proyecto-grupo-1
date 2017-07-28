@@ -37,7 +37,7 @@
                     <div class="container">
                         <h2 class="display-4">Busca tu</h2>
                         <h1 class="display-2 text-center palabracolor">HUECA</h1>
-                        <i class="fa fa-search fa-5x animated slideInDown mouseencima my-2" aria-hidden="true"></i>
+                        <i class="fa fa-search fa-5x animated slideInDown mouseencima my-2" aria-hidden="true" data-toggle="modal" data-target="#largeShoes"></i>
                         <p class="mt-5 mb-0 display-5 frase">No tienes cuenta registraste Ya!!!...</p>
                         <p class="p-0 display-5 frase">Entra a tu perfil y califica tu hueca favorita</p>
                         <p class="lead">
@@ -46,26 +46,6 @@
                         <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#largeShoes">
                             Click Me
                         </button>
-
-                        <!-- The modal -->
-                        <div class="modal fade" id="largeShoes" tabindex="-1" role="dialog" aria-labelledby="modalLabelLarge" aria-hidden="true">
-                            <div class="modal-dialog modal-lg">
-                                <div class="modal-content">
-
-                                    <div class="modal-header">
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                        <h4 class="modal-title" id="modalLabelLarge">Large Shoes</h4>
-                                    </div>
-
-                                    <div class="modal-body">
-                                        Large shoes are usually avoided by people with small feet.
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -73,6 +53,23 @@
                 <source src="../play/Walking-Heads/MP4/Walking-Heads.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 <source src="../play/Walking-Heads/WEBM/Walking-Heads.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
             </video>
+            <!-- The modal -->
+            <div class="modal fade " id="largeShoes" tabindex="-1" role="dialog" aria-labelledby="modalLabelLarge" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content modalBusqueda">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h3 class="h3">HueQuitos Ranking</h3>
+                        </div>
+
+                        <div class="modal-body">
+                            <input class="form-control mr-sm-2 mr-5 w-100" type="text" placeholder="Busca tu Hueca">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="ranking" class="row justify-content-center px-5 pt-5">
