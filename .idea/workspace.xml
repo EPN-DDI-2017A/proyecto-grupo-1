@@ -4,9 +4,8 @@
     <list default="true" id="f22c1d49-540d-4c5a-b44b-32e0b13d80af" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/PerfilUsuario.html" afterPath="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/PerfilUsuario.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/RegistroUsuario.html" afterPath="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/RegistroUsuario.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/estilo.css" afterPath="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/estilo.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto Huequitos/Tatoo/nuevaHueca.html" afterPath="$PROJECT_DIR$/Proyecto Huequitos/Tatoo/nuevaHueca.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Proyecto Huequitos/css/style.css" afterPath="$PROJECT_DIR$/Proyecto Huequitos/css/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,13 +23,29 @@
       <file leaf-file-name="PerfilUsuario.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/PerfilUsuario.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+            <state relative-caret-position="442">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="439" column="18" lean-forward="false" selection-start-line="439" selection-start-column="18" selection-end-line="439" selection-end-column="18" />
+              <folding>
+                <marker date="1501264835243" expanded="true" signature="7183:7628" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -61,11 +76,11 @@
       <list>
         <option value="$PROJECT_DIR$/Proyecto Huequitos/index.html" />
         <option value="$PROJECT_DIR$/Proyecto Huequitos/js/app.js" />
-        <option value="$PROJECT_DIR$/Proyecto Huequitos/css/style.css" />
         <option value="$PROJECT_DIR$/Proyecto Huequitos/HenryRojas/ResultadosHuecas.html" />
-        <option value="$PROJECT_DIR$/Proyecto Huequitos/Tatoo/nuevaHueca.html" />
         <option value="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/estilo.css" />
         <option value="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/RegistroUsuario.html" />
+        <option value="$PROJECT_DIR$/Proyecto Huequitos/css/style.css" />
+        <option value="$PROJECT_DIR$/Proyecto Huequitos/Tatoo/nuevaHueca.html" />
         <option value="$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/PerfilUsuario.html" />
       </list>
     </option>
@@ -137,7 +152,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CarlosArteaga" />
+              <option name="myItemId" value="Tatoo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -248,12 +263,12 @@
       <workItem from="1501092214463" duration="2027000" />
       <workItem from="1501107857399" duration="5527000" />
       <workItem from="1501191675989" duration="11955000" />
-      <workItem from="1501260040570" duration="2896000" />
+      <workItem from="1501260040570" duration="6689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55557000" />
+    <option name="totallyTimeSpent" value="59350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -265,7 +280,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -315,7 +330,7 @@
         <state relative-caret-position="1241">
           <caret line="73" column="50" lean-forward="false" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
           <folding>
-            <marker date="1501260214406" expanded="true" signature="7183:7629" ph="{...}" />
+            <marker date="1501264835243" expanded="true" signature="7183:7628" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -345,7 +360,7 @@
         <state relative-caret-position="6443">
           <caret line="379" column="17" lean-forward="false" selection-start-line="379" selection-start-column="17" selection-end-line="379" selection-end-column="17" />
           <folding>
-            <marker date="1501260214406" expanded="true" signature="7183:7629" ph="{...}" />
+            <marker date="1501264835243" expanded="true" signature="7183:7628" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -411,7 +426,7 @@
         <state relative-caret-position="5746">
           <caret line="338" column="5" lean-forward="false" selection-start-line="338" selection-start-column="5" selection-end-line="338" selection-end-column="5" />
           <folding>
-            <marker date="1501260214406" expanded="true" signature="7183:7629" ph="{...}" />
+            <marker date="1501264835243" expanded="true" signature="7183:7628" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -477,7 +492,7 @@
         <state relative-caret-position="5746">
           <caret line="338" column="5" lean-forward="false" selection-start-line="338" selection-start-column="5" selection-end-line="338" selection-end-column="5" />
           <folding>
-            <marker date="1501260214406" expanded="true" signature="7183:7629" ph="{...}" />
+            <marker date="1501264835243" expanded="true" signature="7183:7628" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -563,7 +578,7 @@
         <state relative-caret-position="2023">
           <caret line="119" column="17" lean-forward="true" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
           <folding>
-            <marker date="1501260214406" expanded="true" signature="7183:7629" ph="{...}" />
+            <marker date="1501264835243" expanded="true" signature="7183:7628" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -574,16 +589,6 @@
           <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
           <folding>
             <marker date="1501199763127" expanded="true" signature="900:946" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="50" lean-forward="false" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
-          <folding>
-            <marker date="1501260214406" expanded="true" signature="7183:7629" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -606,16 +611,6 @@
         <state relative-caret-position="289">
           <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/Tatoo/nuevaHueca.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/estilo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="166" column="18" lean-forward="false" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/RegistroUsuario.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -704,13 +691,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/estilo.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="166" column="18" lean-forward="false" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="439" column="18" lean-forward="false" selection-start-line="439" selection-start-column="18" selection-end-line="439" selection-end-column="18" />
+          <folding>
+            <marker date="1501264835243" expanded="true" signature="7183:7628" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/Tatoo/nuevaHueca.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="51" lean-forward="false" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto Huequitos/CarlosArteaga/PerfilUsuario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        <state relative-caret-position="442">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>

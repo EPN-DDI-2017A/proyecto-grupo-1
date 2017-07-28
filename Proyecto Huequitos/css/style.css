@@ -437,3 +437,7 @@ hr{
     font-size: 15px;
     font-family: 'Varela Round', sans-serif;
 }
+/*.card-text textos{*/
+     /*text-overflow: ellipsis;*/
+     /*overflow: hidden;*/
+ /*}*/

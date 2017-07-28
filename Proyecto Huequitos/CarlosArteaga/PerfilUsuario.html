@@ -20,14 +20,12 @@
                     <a class="navbar-brand w-25" href="#">
                         <img class="animated zoomIn img-fluid w-50" src="../img/final.png" >
                     </a>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                        <div>
-                            <form class="form-inline my-2 my-lg-0">
-                                <i class="fa fa-search fa-2x my-2 ml-5 mr-3" aria-hidden="true"></i>
-                                <input class="form-control mr-sm-2 mr-5" style="width: 560px" type="text" placeholder="Busca tu Hueca">
-                            </form>
-                        </div>
-                        <div class="justify-content-end" id="navbarNavAltMarkup">
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                        <form class="form-inline my-lg-0">
+                            <i class="fa fa-search fa-2x my-2 mx-2" aria-hidden="true"></i>
+                            <input class="form-control mr-sm-2 mr-5" style="width: 500px" type="text" placeholder="Busca tu Hueca">
+                        </form>
+                        <div id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-item nav-link active" href="#">Perfil <span class="sr-only">(current)</span></a>
                                 <a class="nav-item nav-link" href="#ranking">Crear Sitio</a>
@@ -42,48 +40,100 @@
         <div class="row">
             <div class="col-3 bg-perfil py-5" id="col1">
                 <div class=" card-perfil">
-                    <div class="media">
-                        <img class="d-flex mr-3 img3 w-25" src="../img/user4.png" alt="Generic placeholder image">
-                        <div class="media-body">
-                            <h5 class="mt-0">Fernanda Mora</h5>
-                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
+                    <div class="media px-3">
+                        <div class="media-body align-self-center">
+                            <h4 class="mt-0 tittle"><strong>Fernanda Mora</strong></h4>
                         </div>
+                        <img class="d-flex mr-3 img3 w-25" src="../img/user4.png" alt="Generic placeholder image">
                     </div>
 
-                    <div class="card-block mt-5 ml-5 pl-2 pb-1">
-                        <div>
-                            <h4>Tus Huecas</h4>
+                    <div class="card-block mt-5 pl-2 pb-1">
+                        <div class="row ">
+                            <div class="col titulos text-center">
+                                <h1 class="tittle">Tus Huecas</h1>
+                                <hr/>
+                            </div>
                         </div>
-                        <div class="list-group">
-                            <button type="button" class="list-group-item list-group-item-action active">
-                                Papitas de Valde
-                            </button>
-                            <button type="button" class="list-group-item list-group-item-action">PoliBurguer</button>
-                            <button type="button" class="list-group-item list-group-item-action">Dulsini</button>
-                            <button type="button" class="list-group-item list-group-item-action">Los Tios</button>
+                        <div id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="card">
+                                <div class="card-header" role="tab" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                            Papitas de Valde
+                                        </a>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="card-block">
+                                        Comentarios ..
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" role="tab" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            PoliBurguer
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="card-block">
+                                        Comentarios ..
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" role="tab" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Dulsini
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="card-block">
+                                        Comentarios ..
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" role="tab" id="headingFour">
+                                    <h5 class="mb-0">
+                                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#contentFour" aria-expanded="false" aria-controls="collapseFour">
+                                            Los Tios
+                                        </a>
+                                    </h5>
+                                </div>
+                                <div id="contentFour" class="collapse" role="tabpanel" aria-labelledby="contentFour">
+                                    <div class="card-block">
+                                        Comentarios ..
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="col-9">
-                <div id="ranking" class="row justify-content-center px-5 pt-5">
-                    <div class="col pb-5 px-5">
-                        <div class="row pb-md-5 px-md-5 pb-lg-5 px-lg-5 pb-xl-5 px-xl-5">
-                            <div class="col pl-5 titulos text-sm-center text-md-left text-lg-left text-xl-left">
-                                <h1 class="tittle text-left">Favoritas</h1>
+                <div id="ranking" class="row justify-content-center pt-5">
+                    <div class="col pb-5">
+                        <div class="row">
+                            <div class="col titulos text-center">
+                                <h1 class="tittle">Favoritas</h1>
                                 <hr/>
                             </div>
                         </div>
-                        <div class="row text-center">
-                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4">
+                        <div class="row text-center px-3">
+                            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4 h-75">
                                 <div class="card card-outline-warning p-3">
                                     <h4 class="card-title" id="t1">Poliburguer</h4>
                                     <div class="mx-4 row align-items-center h-50">
                                         <img class="card-img-top img-fluid" src="../img/poliburguer.JPG" alt="Card image cap">
                                     </div>
                                     <div class="card-block">
-                                        <p class="card-text text-justify">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="card-text text-justify textos">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                         <div id="s1" class="text-left">
                                             <i class="fa fa-star fa-lg" aria-hidden="true"></i>
                                             <i class="fa fa-star fa-lg" aria-hidden="true"></i>
