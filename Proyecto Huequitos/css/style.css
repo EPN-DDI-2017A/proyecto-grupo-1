@@ -257,6 +257,7 @@ hr{
 .busqueda {
     z-index:100;
     position: absolute;
+    margin-left: auto;
 }
 .busquedaRegistro {
     z-index:100;
@@ -489,4 +490,7 @@ hr{
     color: #eb9316;
     margin-bottom: -46px;
     margin-left: 3px;
+}
+.mapasComentarios{
+    overflow: auto;
 }
