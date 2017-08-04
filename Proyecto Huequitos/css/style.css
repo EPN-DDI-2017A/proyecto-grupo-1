@@ -378,7 +378,7 @@ hr{
 }
 
 .menu{
- background-color: rgba(255, 232, 119, 0.7);
+ background-color: black;
 }
 
 .paginations a{
@@ -473,7 +473,7 @@ hr{
 }
 
 .bg-perfil{
-    background-color: #ff6a6a;
+    background-color: rgb(234, 210, 137);
 }
 
 .footericonsRegistro{
