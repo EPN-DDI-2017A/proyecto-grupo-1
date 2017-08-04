@@ -258,6 +258,11 @@ hr{
     z-index:100;
     position: absolute;
 }
+.busquedaRegistro {
+    z-index:100;
+    position: absolute;
+    margin-left: auto;
+}
 
 #servicios h1{
     color:black;
@@ -444,4 +449,44 @@ hr{
 
 .modalBusqueda{
     background-color: rgba(255, 187, 145, 0.7);
+}
+
+/*css carlitos*/
+
+.form-registro{
+    width: 400px;
+    height: 250px;
+    border: solid 1px #f0ad4e;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 30px;
+    background-color: transparent;
+}
+
+.card{
+    border: solid 2px #e4b9b9;
+    border-radius: 20px;
+
+}
+
+.bg-perfil{
+    background-color: #ff6a6a;
+}
+
+.footericonsRegistro{
+    background-color: black;
+    border: 1px solid black;
+    margin-top: -7px;
+}
+
+#footer .contactos hr{
+    width: 100%;
+}
+
+.estrellaHueca{
+    color: #eb9316;
+    margin-bottom: -46px;
+    margin-left: 3px;
 }
