@@ -1,0 +1,626 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Perfil Hueca</title>
+    <link rel="stylesheet" href="css/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row menu">
+        <div class="col-12">
+            <nav class="navbar navbar-toggleable-md navbar-light px-5">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand w-25" href="index.html">
+                    <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
+                </a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom">Iniciar Sesion</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 py-4">
+            <div class="row">
+                <div class="col text-center">
+                    <img class="w-50 img-fluid" src="img/poliburguer.JPG" alt="Generic placeholder image">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col">
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="tittle text-center">PoliBurguer</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col px-5">
+                            <div class="row">
+                                <div class="col-3">
+                                    <h5>Nombre: </h5>
+                                </div>
+                                <div class="col-8">
+                                    <h5>PoliBurguer Fast Food</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <h5>Horarios:</h5>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-5">
+                                    <h5>Lunes - Viernes:</h5>
+                                    <h5> 08h30 - 22h00</h5>
+                                </div>
+                                <div class="col-6">
+                                    <h5>Sabados/ Domingos/ Feriados:</h5>
+                                    <h5>10h00 - 20h00</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mapasComentarios col-6 py-4">
+            <div class="row justify-content-center">
+                <div style='height:300px; width:400px;'>
+                    <div id='map' style='height:300px;width:400px;'></div>
+                </div>
+            </div>
+            <div class="row justify-content-center py-3">
+                <div class="col-3">
+                    <h5>Tu Ubicacion:</h5>
+                </div>
+                <div class="col-5">
+                    <h5>Escuela Politecnica Nacional</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center py-3">
+                <div class="col-3">
+                    <h5>Tu Hueca:</h5>
+                </div>
+                <div class="col-5">
+                    <h5>El Carbonero Poliburguer</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center py-3">
+                <div class="col-3">
+                    <h5>Tu Hueca esta:</h5>
+                </div>
+                <div class="col-5">
+                    <h5>Av. A Mena Caamano y Av. Andalucia</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<div class="row justify-content-center px-5 py-5">-->
+        <!--<div class="col">-->
+            <!--<div class="media hueca">-->
+                <!--<img class="d-flex ml-5 mr-3" src="../img/poliburguer.JPG" alt="Generic placeholder image">-->
+                <!--<div class="media-body">-->
+                    <!--<div class="row px-5">-->
+                        <!--<div class="col titulos px-5">-->
+                            <!--<h1 class="tittle text-center">PoliBurguer</h1>-->
+                            <!--<hr/>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="row ml-5 pl-5">-->
+                        <!--<div class="col-2">-->
+                            <!--<h3>Nombre:</h3>-->
+                        <!--</div>-->
+                        <!--<div class="col-10 pt-2">-->
+                            <!--<h4>PoliBurguer Fast Food</h4>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<br/>-->
+                    <!--<div class="row ml-5 pl-5">-->
+                        <!--<div class="col-2">-->
+                            <!--<h3>Direccion:</h3>-->
+                        <!--</div>-->
+                        <!--<div class="col-10 pt-2">-->
+                            <!--<h4>Av. A Mena Caamano y Av. Andalucia</h4>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<br/>-->
+                    <!--<div class="row ml-5 pl-5">-->
+                        <!--<div class="col-2">-->
+                            <!--<h3>Horarios:</h3>-->
+                        <!--</div>-->
+                        <!--<div class="col-10 pt-2">-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-5"><h4>Lunes - Viernes:</h4></div>-->
+                                <!--<div class="col-4"><h4> 08h30 - 22h00</h4></div>-->
+                            <!--</div>-->
+                            <!--<div class="row">-->
+                                <!--<div class="col-5"><h4>Sabados/Domingos/Feriados:</h4></div>-->
+                                <!--<div class="col-4"><h4>10h00 - 20h00</h4></div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="row justify-content-center otrosLugares px-5 py-5">-->
+        <!--<div class="col-7">-->
+            <!--<div style='height:450px;width:690px;'>-->
+                <!--<div id='map' style='height:450px;width:690px;'>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div class="col-5 hueca mt-5 pt-5">-->
+            <!--<div class="row">-->
+                <!--<div class="col-5">-->
+                    <!--<h3>Tu Ubicacion:</h3>-->
+                <!--</div>-->
+                <!--<div class="col-7 pt-2">-->
+                    <!--<h4>Escuela Politecnica Nacional</h4>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<br/>-->
+            <!--<div class="row">-->
+                <!--<div class="col-5">-->
+                    <!--<h3>Tu Hueca:</h3>-->
+                <!--</div>-->
+                <!--<div class="col-7 pt-2">-->
+                    <!--<h4>El Carbonero Poliburguer</h4>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<br/>-->
+            <!--<div class="row">-->
+                <!--<div class="col-5">-->
+                    <!--<h3>Tu Hueca esta:</h3>-->
+                <!--</div>-->
+                <!--<div class="col-7 pt-2">-->
+                    <!--<h4>Av. A Mena Caamano y Av. Andalucia</h4>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="row justify-content-center px-5">
+        <div class="col px-4 py-5">
+            <div class="row px-5">
+                <div class="col titulos px-5">
+                    <h1 class="tittle text-center">Menu</h1>
+                    <hr/>
+                </div>
+            </div>
+            <div class="row px-5 py-4">
+                <div class="col">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#hb" role="tab">Hamburguesas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#salchi" role="tab">Salchipapas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#bebida" role="tab">Bebidas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row otrosResultados ">
+                <div class="col">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="hb" role="tabpanel">
+                            <div class="row d-flex">
+                                <div class="col text-center">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="row ml-5 pl-5 my-4 justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Simple</h4>
+                                                                <p class="card-text">Pan + carne</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Doble</h4>
+                                                                <p class="card-text">Pan + 2 Carnes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Pan+Carne+Chorizo</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Ensaladas a elegir</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row ml-5 pl-5 my-4 justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Simple</h4>
+                                                                <p class="card-text">Pan + carne</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Doble</h4>
+                                                                <p class="card-text">Pan + 2 Carnes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Pan+Carne+Chorizo</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Ensaladas a elegir</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="salchi" role="tabpanel">
+                            <div class="row d-flex">
+                                <div class="col text-center">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="row ml-5 pl-5 my-4 justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Simple</h4>
+                                                                <p class="card-text">Pan + carne</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Doble</h4>
+                                                                <p class="card-text">Pan + 2 Carnes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Pan+Carne+Chorizo</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Ensaladas a elegir</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row ml-5 pl-5 my-4 justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Simple</h4>
+                                                                <p class="card-text">Pan + carne</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Doble</h4>
+                                                                <p class="card-text">Pan + 2 Carnes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Pan+Carne+Chorizo</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/salchi.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Ensaladas a elegir</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebida" role="tabpanel">
+                            <div class="row d-flex">
+                                <div class="col text-center">
+                                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="row ml-5 pl-5 my-4 justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/sodas.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Gaseosa</h4>
+                                                                <p class="card-text">pepsi</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/sodas.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Gaseosa </h4>
+                                                                <p class="card-text">coca cola</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/sodas.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Gaseosa</h4>
+                                                                <p class="card-text">Pilsener</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/sodas.jpg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Gaseosa</h4>
+                                                                <p class="card-text">Fruit</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="row ml-5 pl-5 my-4 justify-content-center">
+                                                    <div class="col-2">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Simple</h4>
+                                                                <p class="card-text">Pan + carne</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Doble</h4>
+                                                                <p class="card-text">Pan + 2 Carnes</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Pan+Carne+Chorizo</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-2 ml-5">
+                                                        <div class="card" style="width: 12rem;">
+                                                            <img class="card-img-top my-3 mx-4" src="img/poli.jpeg" width="140px" height="125px" alt="Card image cap">
+                                                            <div class="card-block">
+                                                                <h4 class="card-title">Hamburguesa Mixta</h4>
+                                                                <p class="card-text">Ensaladas a elegir</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between px-5 footericons py-3 text-white">
+        <div class="col-4 align-self-center">
+            <div class="row footertexto align-items-center">
+                <div class="col-7 d-flex">
+                    <h6 class="final">Huequitos.com</h6>
+                    <i class="fa fa-copyright" aria-hidden="true"></i>
+                    <h6 class="final pl-2" id="fecha"></h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-5 text-right">
+            <div class="row justify-content-end">
+                <div class="col-5 align-self-center">
+                    <h1 class="h6 final">Siguenos en:</h1>
+                </div>
+                <div class="col-5 align-self-center">
+                    <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBBjmpouj6dqlBWYsueo00tSkHKu2zJFUY'></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="css/bootstrap-4.0.0-alpha.6-dist/js/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="css/bootstrap-4.0.0-alpha.6-dist/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="css/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+<script>
+
+    function initialize() {
+        var myLatLng = {lat: -0.2101867, lng: -78.4886912};
+        var myLatLng2 = {lat: -0.20923866016848838, lng: -78.48832368850708};
+        var myLatLng3 = {lat: -0.20930035056434268, lng: -78.48826602101326};
+        var myLatLng4 = {lat: -0.2093647231510683, lng: -78.4881466627121};
+        var myLatLng5 = {lat: -0.20918099305909374, lng: -78.48843097686768};
+        var myLatLng6 = {lat: -0.2102806913876026, lng: -78.48695710301399};
+        var myLatLng7 = {lat: -0.20980192029554695, lng: -78.48660036921501};
+        var myLatLng8 = {lat: -0.2083240329667429, lng: -78.490831553936};
+        var mapOptions = {
+            zoom:17,
+            center:myLatLng,
+	        scrollwheel: false,
+            disableDoubleClickZoom: true,
+            draggable: false
+        }
+
+        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: myLatLng,
+            map: map,
+            title: 'USTED ESTA AQUI'
+        }
+        );
+
+        var marker2 = new google.maps.Marker({
+            position: myLatLng2,
+            map: map,
+            title: 'El Ramón Restaurante'
+        });
+
+        var marker3 = new google.maps.Marker({
+            position: myLatLng3,
+            map: map,
+            title: 'El Ramón Restaurante'
+        });
+
+        var marker4 = new google.maps.Marker({
+            position: myLatLng4,
+            map: map,
+            title: 'El Carbonero Poliburguer'
+        });
+
+        var marker5 = new google.maps.Marker({
+            position: myLatLng5,
+            map: map,
+            title: 'RAMÓN ANTIGUA'
+        });
+
+        var marker6 = new google.maps.Marker({
+            position: myLatLng6,
+            map: map,
+            title: 'I FEEL UiO'
+        });
+
+        var marker7 = new google.maps.Marker({
+            position: myLatLng7,
+            map: map,
+            title: 'Las Costillas'
+        });
+
+        var marker8 = new google.maps.Marker({
+            position: myLatLng8,
+            map: map,
+            title: 'The Empanada Shop'
+        });
+
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
+</html>

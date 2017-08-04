@@ -11,19 +11,19 @@ $(document).ready(function () {
     $('[data-toggle="popover"]').popover({
         content:
         '<div class="row mx-1 my-3">'+
-        '<form class="w-100">' +
-        '<div class="form-group w-100 justify-content-end">'+
-        '<input type="email" class="form-control" id="inputEmail3" placeholder="Email">'+
-        '</div>'+
-        '<div class="form-group justify-content-end">'+
-        '<input type="password" class="form-control " id="inputPassword3" placeholder="Password">'+
-        '</div>'+
-        '<div class="form-group row justify-content-end">'+
-        '<div class="boton">'+
-        '<button type="submit" class="btn" style="background: orange; border: none; color: white">Iniciar Sesion</button>'+
-        '</div>'+
-        '</div>'+
-        '</form>'+
+        '   <form class="w-100">' +
+        '       <div class="form-group w-100 justify-content-end">'+
+        '           <input type="email" class="form-control" id="inputEmail3" placeholder="Email">'+
+        '       </div>'+
+        '       <div class="form-group justify-content-end">'+
+        '           <input type="password" class="form-control " id="inputPassword3" placeholder="Password">'+
+        '       </div>'+
+        '       <div class="form-group row justify-content-end">'+
+        '           <div class="boton">'+
+        '               <a type="submit" class="btn" style="background: orange; border: none; color: white" href="PerfilUsuario.html">Iniciar Sesion</a>'+
+        '           </div>'+
+        '       </div>'+
+        '   </form>'+
         '</div>'
     })
 
