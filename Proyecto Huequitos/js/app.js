@@ -7,7 +7,7 @@ $(document).ready(function () {
     var currentTime = new Date()
     var year = currentTime.getFullYear();
     $('#fecha').html(year);
-    $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="tooltip"]').tooltip();
     $('[data-toggle="popover"]').popover({
         content:
         '<div class="row mx-1 my-3">'+
