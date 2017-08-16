@@ -83,7 +83,7 @@ $(document).ready(function () {
 
         });
     }
-
+    $("#buscadoroculto").hide();
     // mouseover sobre lupita
     $( "i.mouseencima" )
         .mouseover(function(){
@@ -92,6 +92,17 @@ $(document).ready(function () {
         })
         .mouseout(function() {
             $(this).removeClass("infinite")
+        })
+        .on("click",function (e) {
+            e.preventDefault();
+            $("#buscadoroculto").toggle();
+            $("#nuevaBusquedatext").focus();
+            $("html").addClass("noscroll");
         });
+    $("#nuevaBusquedatext").blur(function (e) {
+        e.preventDefault();
+        $("#buscadoroculto").toggle();
+        $("html").removeClass("noscroll");
+    })
 });
 

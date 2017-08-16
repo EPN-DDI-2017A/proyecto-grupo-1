@@ -477,11 +477,18 @@ hr{
     padding: 30px;
     background-color: transparent;
 }
-
+.menudeBusqueda{
+    background-color: #f0ad4e;
+}
+.buscadorbarra{
+    background-color: rgba(255, 255, 255, 0.33);
+    height: 100%;
+    border-top: 150px solid rgba(255, 255, 255, -0.67);
+}
 .card{
     border: solid 2px #e4b9b9;
     border-radius: 20px;
-
+    position: initial;
 }
 
 .bg-perfil{
@@ -691,4 +698,10 @@ hr{
     .reply-list .comment-box {
         width: 320px;
     }
+}
+
+html.noscroll {
+    position: fixed;
+    overflow-y: scroll;
+    width: 100%;
 }

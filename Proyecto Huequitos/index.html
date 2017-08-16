@@ -27,22 +27,36 @@
                             <a class="nav-item nav-link" href="#ranking">Ranking</a>
                             <a class="nav-item nav-link" href="#servicios">Servicios</a>
                             <a class="nav-item nav-link" href="#footer">Contactos</a>
-                            <a class="nav-item nav-link" tabindex="0" data-html="true" data-trigger="focus" data-container="body" data-toggle="popover" data-placement="bottom" animation="true">Iniciar Sesion</a>
+                            <a class="nav-item nav-link" tabindex="0" data-html="true" data-trigger="click" data-container="body" data-toggle="popover" data-placement="bottom" animation="true">Iniciar Sesion</a>
                         </div>
                     </div>
                 </nav>
+                <div id="buscadoroculto" class="col-12 w-100 fixed-top buscadorbarra">
+                    <div class="row d-flex w-100 m-0 justify-content-center">
+                        <div class="col-1 text-right">
+                            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                        </div>
+                        <div class="col-10 p-0">
+                            <form class="form-inline my-lg-0">
+                                <input id="nuevaBusquedatext" class="form-control mr-sm-2 mr-5 w-100" type="text" placeholder="Busca tu Hueca">
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row busqueda justify-content-center w-100 mt-5 pt-sm-5 pt-md-5 pt-xl-5 pt-lg-5">
-                <div class="jumbotron jumbotron-fluid text-center justify-content-center p-sm-0 p-md-0 pt-lg-5 pt-xl-5" style="background: transparent">
-                    <div class="container">
-                        <h2 class="display-4">Busca tu</h2>
-                        <h1 class="display-2 text-center palabracolor">HUECA</h1>
-                        <a href="nuevaHueca.html"><i class="fa fa-search fa-5x animated slideInDown mouseencima my-2" aria-hidden="true"></i></a>
-                        <p class="mt-5 mb-0 display-5 frase">No tienes cuenta registraste Ya!!!...</p>
-                        <p class="p-0 display-5 frase">Entra a tu perfil y califica tu hueca favorita</p>
-                        <p class="lead">
-                            <a class="btn" href="RegistroUsuario.html" role="button" style="background: orange; border: none; color: white">Registrate</a>
-                        </p>
+                <div class="col-12">
+                    <div class="jumbotron jumbotron-fluid text-center justify-content-center p-sm-0 p-md-0 pt-lg-5 pt-xl-5" style="background: transparent">
+                        <div class="container">
+                            <h2 class="display-4">Busca tu</h2>
+                            <h1 class="display-2 text-center palabracolor">HUECA</h1>
+                            <a><i class="fa fa-search fa-5x animated slideInDown mouseencima my-2"></i></a>
+                            <p class="mt-5 mb-0 display-5 frase">No tienes cuenta registraste Ya!!!...</p>
+                            <p class="p-0 display-5 frase">Entra a tu perfil y califica tu hueca favorita</p>
+                            <p class="lead">
+                                <a class="btn" href="RegistroUsuario.html" role="button" style="background: orange; border: none; color: white">Registrate</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
