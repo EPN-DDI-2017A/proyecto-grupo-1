@@ -85,6 +85,16 @@ hr{
     border-bottom-color: crimson !important;
 }
 
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid crimson;
+    border-right: 10px solid transparent;
+    margin-top: -25px;
+    margin-left: 250px;
+}
+
 .popover.popover-bottom, .popover.bs-tether-element-attached-top {
     left: -88px !important;
     max-width: 315px !important;
@@ -94,9 +104,10 @@ hr{
 }
 .popover {
     border-radius: 0px;
-    width: 315px;
+    width: 600px;
     background-color: rgba(255, 255, 255, 0.33);
     border: 2px solid crimson;
+    top: 17px !important;
 }
 .boton{
     -webkit-box-flex: 0;
@@ -182,7 +193,6 @@ hr{
 #servicios{
     background-image: url("../img/fondo.jpg");
     background-color: black;
-
 }
 
 #servicios .imgCircular{
@@ -510,6 +520,10 @@ hr{
     overflow: auto;
 }
 
+.pre-scrollable {
+    max-height: 405px;
+    overflow-y: auto;
+}
 /* Estilos para el scrollbar en todas las paginas*/
 ::-webkit-scrollbar-button{
     display: none; height: 13px; border-radius: 0px; background-color: #dadada;

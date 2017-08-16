@@ -10,7 +10,8 @@ $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
     $('[data-toggle="popover"]').popover({
         content:
-        '<div class="row mx-1 my-3">'+
+        '<div class="triangulo"></div>'+
+        '<div class="row mx-3 my-3">'+
         '   <form class="w-100">' +
         '       <div class="form-group w-100 justify-content-end">'+
         '           <input type="email" class="form-control" id="inputEmail3" placeholder="Email">'+
