@@ -84,6 +84,7 @@ $(document).ready(function () {
         });
     }
     $("#buscadoroculto").hide();
+
     // mouseover sobre lupita
     $( "i.mouseencima" )
         .mouseover(function(){
@@ -99,10 +100,45 @@ $(document).ready(function () {
             $("#nuevaBusquedatext").focus();
             $("html").addClass("noscroll");
         });
+
+    // programacion de la busqueda
     $("#nuevaBusquedatext").blur(function (e) {
         e.preventDefault();
         $("#buscadoroculto").toggle();
         $("html").removeClass("noscroll");
-    })
+    });
+
+    // registro de usuario
+    $("#botonRegistrar").on("click",function (event){
+        event.preventDefault();
+        console.log($("#usuario").val());
+        console.log($("#password").val());
+        console.log($("#passwordrepetir").val());
+    });
+    $("#registro").validate({
+        rules:{
+            usuario:{
+                required: true
+            },
+            password:{
+                required: true,
+                minlength: 5
+            },
+            passwordrepetir:{
+                required: true,
+                minlength: 5,
+                equalTo: '#password'
+            }
+        },
+        messages:{}
+    });
+    $('#registro input').on('keyup', function () {
+        if ($('#registro').valid()) {
+            $('#botonRegistrar').attr('disabled', false);
+        } else {
+            $('#botonRegistrar').attr('disabled', 'disabled');
+        }
+    });
+
 });
 

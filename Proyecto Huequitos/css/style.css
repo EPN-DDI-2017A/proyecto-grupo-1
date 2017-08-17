@@ -467,8 +467,7 @@ hr{
 /*css carlitos*/
 
 .form-registro{
-    width: 400px;
-    height: 250px;
+    min-width: 400px;
     border: solid 1px #f0ad4e;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -596,6 +595,13 @@ hr{
     display: block;
     clear: both;
 }
+
+.comments-container {
+    background-color: beige;
+    -webkit-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.37);
+    -moz-box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.37);
+    box-shadow: inset 0px 0px 14px 1px rgba(0,0,0,0.37);
+}
 /**
  * Caja del Comentario
  ---------------------------*/
@@ -689,6 +695,7 @@ hr{
 @media only screen and (max-width: 766px) {
     .comments-container {
         width: 480px;
+        background-color: beige;
     }
 
     .comments-list .comment-box {
@@ -704,4 +711,25 @@ html.noscroll {
     position: fixed;
     overflow-y: scroll;
     width: 100%;
+}
+
+#registro label{
+    color: white;
+    text-align: left !important;
+}
+#registro label.form-control-label{
+    color: crimson;
+    text-align: left !important;
+    font-weight: bold;
+}
+#botonRegistrar {
+    background: orange;
+    border: none;
+    color: white;
+}
+
+#botonComentar {
+    background: orange;
+    border: none;
+    color: white;
 }
