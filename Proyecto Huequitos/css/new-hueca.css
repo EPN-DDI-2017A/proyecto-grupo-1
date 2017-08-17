@@ -16,8 +16,7 @@ body {
 }
 
 .form-control{
-    /*background-color: rgb(225, 184, 184);*/
-    background-color: rgba(255, 187, 145, 0.7);
+    background-color: rgb(225, 184, 184);
     color: black;
     border-color:#B2493D;
 }
