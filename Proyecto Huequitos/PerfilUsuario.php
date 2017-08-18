@@ -13,7 +13,7 @@
         <div class="row menu">
             <div class="col py-4">
                 <nav class="navbar navbar-expand-lg navbar-light px-5">
-                    <a class="navbar-brand w-25" href="index.html">
+                    <a class="navbar-brand w-25" href="index.php">
                         <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
                     </a>
                     <div class="row d-flex w-100 d-lg-flex d-sm-none justify-content-center">
@@ -44,7 +44,7 @@
                             <div class="navbar-nav">
                                 <a class="nav-item nav-link active" href="#">Perfil <span class="sr-only">(current)</span></a>
                                 <a class="nav-item nav-link" href="nuevaHueca.php">Crear Hueca</a>
-                                <a id="cerrarSesion" class="nav-item nav-link">Cerrar Sesión</a>
+                                <a id="cerrarSesion" class="nav-item nav-link" href="#">Cerrar Sesión</a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +184,7 @@
                                     </div>
                                 </div>
                                 <div class="text-right botonGO">
-                                    <a href="PerfilHueca.html" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                                    <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4">
@@ -208,7 +208,7 @@
                                     </div>
                                 </div>
                                 <div class="text-right botonGO">
-                                    <a href="PerfilHueca.html" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
+                                    <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4">
@@ -280,7 +280,7 @@
                                     </div>
                                 </div>
                                 <div class="text-right botonGO">
-                                    <a href="PerfilHueca.html" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
+                                    <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
                                 </div>
                             </div>
                         </div>

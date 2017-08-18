@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col p-0 align-items-center">
             <nav class="navbar navbar-expand-lg navbar-light px-5 align-self-center menu">
-                <a class="navbar-brand w-25" href="index.html">
+                <a class="navbar-brand w-25" href="index.php">
                     <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,7 +21,7 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom">Iniciar Sesion</a>
                     </div>
                 </div>

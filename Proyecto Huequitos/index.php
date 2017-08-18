@@ -15,7 +15,7 @@
         <div class="col p-0">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5">
-                    <a class="navbar-brand w-25" href="index.html">
+                    <a class="navbar-brand w-25" href="index.php">
                         <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
                     </a>
                     <button class="navbar-toggler navbar-toggler-right p-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +27,7 @@
                             <a class="nav-item nav-link" href="#ranking">Ranking</a>
                             <a class="nav-item nav-link" href="#servicios">Servicios</a>
                             <a class="nav-item nav-link" href="#footer">Contactos</a>
-                            <a class="nav-item nav-link" tabindex="0" data-html="true" data-trigger="click" data-container="body" data-toggle="popover" data-placement="bottom" animation="true">Iniciar Sesion</a>
+                            <a class="nav-item nav-link" tabindex="0" data-html="true" data-trigger="click" data-container="body" data-toggle="popover" data-placement="bottom" animation="true" href="#">Iniciar Sesion</a>
                         </div>
                     </div>
                 </nav>

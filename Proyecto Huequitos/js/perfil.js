@@ -5,11 +5,11 @@ $(document).ready(function () {
         console.log(user.usuario);
         $('#nombreUser').html('<strong>'+user.usuario+'</strong>');
     }else{
-        window.location.href = 'http://localhost/Huequitos/index.php';
+        window.location.href = 'http://localhost/Proyecto Huequitos/index.php';
     }
     $('#cerrarSesion').on('click',function(){
         localStorage.removeItem('usuario');
-        window.location.href = 'http://localhost/Huequitos/index.php';
+        window.location.href = 'http://localhost/Proyecto Huequitos/index.php';
     });
 
     $('#huequiar').on('click', function(event) {
@@ -17,14 +17,14 @@ $(document).ready(function () {
         var busquedacookie = $("#nuevaBusquedatext").val();
         // poner las cookies, localstorage y sessionstorage
         Cookies.set('busqueda', busquedacookie);
-        window.location.href = 'http://localhost/Huequitos/ResultadosHuecas.php';
+        window.location.href = 'http://localhost/Proyecto Huequitos/ResultadosHuecas.php';
     });
     $('#huequiaroculto').on('click', function(event) {
         event.preventDefault();
         var busquedacookie = $("#nuevaBusquedatextoculto").val();
         // poner las cookies, localstorage y sessionstorage
         Cookies.set('busqueda', busquedacookie);
-        window.location.href = 'http://localhost/Huequitos/ResultadosHuecas.php';
+        window.location.href = 'http://localhost/Proyecto Huequitos/ResultadosHuecas.php';
     });
     
 });

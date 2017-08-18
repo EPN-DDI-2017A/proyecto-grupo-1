@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
                 <div class="col-4 p-4">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt2">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt2">go</a>
                     </div>
                 </div>
                 <div class="col-4 p-4">
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
                 <div class="col-4 p-4">
@@ -158,7 +158,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt2">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt2">go</a>
                     </div>
                 </div>
                 <div class="col-4 p-4">
@@ -179,7 +179,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
                 <div class="col-4 p-4">
@@ -223,7 +223,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt2">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt2">go</a>
                     </div>
                 </div>
                 <div class="col-4 p-4">
@@ -244,7 +244,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
+                        <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
             </div>
@@ -314,7 +314,7 @@
                                     </p>
                                     <div class="row text-right">
                                         <div class="col align-self-end mt-5">
-                                            <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                                            <a href="RegistroUsuario.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                                         </div>
                                     </div>
                                 </div>
@@ -335,7 +335,7 @@
                                     </p>
                                     <div class="row text-right">
                                         <div class="col align-self-end mt-5">
-                                            <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                                            <a href="RegistroUsuario.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                                         </div>
                                     </div>
                                 </div>
@@ -356,7 +356,7 @@
                                     </p>
                                     <div class="row text-right">
                                         <div class="col align-self-end mt-5">
-                                            <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                                            <a href="RegistroUsuario.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                                         </div>
                                     </div>
                                 </div>
@@ -377,7 +377,7 @@
                                     </p>
                                     <div class="row text-right">
                                         <div class="col align-self-end mt-5">
-                                            <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                                            <a href="RegistroUsuario.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                                         </div>
                                     </div>
                                 </div>

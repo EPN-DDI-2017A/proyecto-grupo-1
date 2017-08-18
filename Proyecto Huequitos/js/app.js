@@ -20,7 +20,7 @@ $(document).ready(function () {
         '           <input type="password" class="form-control " name="pass" id="pass" placeholder="Password">'+
         '       </div>'+
         '       <div class="form-group row justify-content-end">'+
-        '           <button id="iniciarSesion" class="btn btn-primary" style="background: orange; border: none">Enviar</button>'+
+        '           <button id="iniciarSesion" class="btn btn-primary" style="background: orange; border: none" href="#">Enviar</button>'+
         '       </div>'+
         '   </form>'+
         '</div>'
@@ -68,7 +68,7 @@ $(document).ready(function () {
                         alert("Usuario y Contraseña Incorrectas")
                     }else{
                         localStorage.setItem('usuario', JSON.stringify(data));
-                        window.location.href = 'http://localhost/Huequitos/PerfilUsuario.php';
+                        window.location.href = 'http://localhost/Proyecto Huequitos/PerfilUsuario.php';
                     }
                 })
                 .fail(function() {
@@ -172,7 +172,7 @@ $(document).ready(function () {
         // poner las cookies, localstorage y sessionstorage
         Cookies.set('busqueda', busquedacookie);
         
-        window.location.href = 'http://localhost/Huequitos/ResultadosHuecas.php';
+        window.location.href = 'http://localhost/Proyecto Huequitos/ResultadosHuecas.php';
     });
 
     // validaciones en index

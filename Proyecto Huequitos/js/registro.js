@@ -71,7 +71,7 @@ $(document).ready(function () {
                         alert("Usuario y Contraseña Incorrectas")
                     }else{
                         localStorage.setItem('usuario', JSON.stringify(data));
-                        window.location.href = 'http://localhost/Huequitos/PerfilUsuario.php';
+                        window.location.href = 'http://localhost/Proyecto Huequitos/PerfilUsuario.php';
                     }
                 })
                 .fail(function() {

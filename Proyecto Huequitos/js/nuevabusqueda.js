@@ -13,7 +13,7 @@ $(document).ready(function () {
             console.log(busqueda);
             $('#nuevabusqueda').val(busqueda);
         }else{
-            window.location.href = 'http://localhost/Huequitos/index.php';
+            window.location.href = 'http://localhost/Proyecto Huequitos/index.php';
         }
     }else{
        $('#contenedorcomentarios').hide();
@@ -27,7 +27,7 @@ $(document).ready(function () {
             console.log(busqueda);
             $('#nuevabusqueda').val(busqueda);
         }else{
-            window.location.href = 'http://localhost/Huequitos/index.php';
+            window.location.href = 'http://localhost/Proyecto Huequitos/index.php';
         }
     }
 
@@ -52,7 +52,7 @@ $(document).ready(function () {
         '           <input type="password" class="form-control " name="pass" id="pass" placeholder="Password">'+
         '       </div>'+
         '       <div class="form-group row justify-content-end">'+
-        '           <button id="iniciarSesion" class="btn btn-primary" style="background: orange; border: none">Enviar</button>'+
+        '           <button id="iniciarSesion" class="btn btn-primary" style="background: orange; border: none" href="#">Enviar</button>'+
         '       </div>'+
         '   </form>'+
         '</div>'
@@ -100,7 +100,7 @@ $(document).ready(function () {
                         alert("Usuario y Contraseña Incorrectas")
                     }else{
                         localStorage.setItem('usuario', JSON.stringify(data));
-                        window.location.href = 'http://localhost/Huequitos/PerfilUsuario.php';
+                        window.location.href = 'http://localhost/Proyecto Huequitos/PerfilUsuario.php';
                     }
                 })
                 .fail(function() {

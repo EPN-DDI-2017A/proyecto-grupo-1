@@ -29,7 +29,7 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-item nav-link active" href="PerfilUsuario.html">Perfil<span class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link active" href="PerfilUsuario.php">Perfil<span class="sr-only">(current)</span></a>
                             </div>
                         </div>
                     </nav>

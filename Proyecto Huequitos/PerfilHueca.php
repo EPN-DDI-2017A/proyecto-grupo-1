@@ -16,7 +16,7 @@
     <div class="row menu">
         <div class="col-12">
             <nav class="navbar navbar-expand-lg navbar-light px-5">
-                <a class="navbar-brand w-25" href="index.html">
+                <a class="navbar-brand w-25" href="index.php">
                     <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
                         <a id="iniciarsesionboton" class="nav-item nav-link" data-html="true" data-container="body" data-toggle="popover" data-placement="bottom">Iniciar Sesion</a>
                         <a id="perfil" class="nav-item nav-link active" href="PerfilUsuario.php">Perfil <span class="sr-only">(current)</span></a>
                         <a id="nuevahuevaboton" class="nav-item nav-link" href="nuevaHueca.php">Crear Hueca</a>
-                        <a id="cerrarSesionboton" class="nav-item nav-link">Cerrar Sesión</a>
+                        <a id="cerrarSesionboton" class="nav-item nav-link" href="#">Cerrar Sesión</a>
                     </div>
                 </div>
             </nav>
