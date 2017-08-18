@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <!--link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet"-->
 
 </head>
 <body>
@@ -620,7 +620,7 @@
     </div>
 </div>
 
-<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBBjmpouj6dqlBWYsueo00tSkHKu2zJFUY'></script>
+
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/jquery-validation/dist/jquery.validate.js"></script>
 <script src="js/jquery-validation/dist/localization/messages_es.min.js"></script>
@@ -629,8 +629,9 @@
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/tether.min.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
 <script src="js/perfilhueca.js"></script>
-<script>
-
+<!--script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBBjmpouj6dqlBWYsueo00tSkHKu2zJFUY'></script-->
+<!--script>
+    /*NO FUNCIONA*/
     function initialize() {
         var myLatLng = {lat: -0.2101867, lng: -78.4886912};
         var myLatLng2 = {lat: -0.20923866016848838, lng: -78.48832368850708};
@@ -702,6 +703,6 @@
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
-</script>
+</script-->
 </body>
 </html>

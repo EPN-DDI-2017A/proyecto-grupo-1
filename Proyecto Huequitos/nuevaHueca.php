@@ -37,14 +37,14 @@
             </div>
             <div class="row info">
                 <div class="col px-5 py-4">
-                    <form>
+                    <form id="nuevahueca">
                         <div class="row px-4 py-4">
                             <div class="col-5 align-self-center">
                                 <div class="card-block">
-                                    <img class="w-100 h-75" src="img/restaurant.jpg"/>
+                                    <img class="w-100 h-75" src="img/cub2.jpg"/>
                                 </div>
                                 <div class="form-group py-4">
-                                    <input  type="file" class="form-control-file" id="imagenHueca" aria-describedby="fileHelp">
+                                    <input  type="file" class="form-control-file" id="imagenHueca" name="imagenHueca" aria-describedby="fileHelp">
                                     <small id="fileHelp" class="form-text text-muted">Upload an image of your Hueca only jpg or png</small>
                                 </div>
                             </div>
@@ -55,14 +55,14 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" type="text" id="nombreHueca" placeholder="Nombre de la Hueca">
+                                    <input class="form-control" type="text" id="nombreHueca" name="nombreHueca" placeholder="Nombre de la Hueca">
                                 </div>
                                 <div class="form-group">
-                                     <input class="form-control" type="text" id="direccion"  placeholder="Jose Abarca Oe3-162 y Lorenzo Flores">
+                                     <input class="form-control" type="text" id="direccion" name="direccion"placeholder="Jose Abarca Oe3-162 y Lorenzo Flores">
                                 </div>
                                 <div class="form-group">
                                     <label for="atencion" class="col-form-label">Horarios de Atención:</label>
-                                    <textarea class="form-control" id="atencion" rows="3" placeholder="Abierto cada día desde el 18 de marzo hasta el 31 de octubre cerrado los lunes"></textarea>
+                                    <textarea class="form-control" name="atencion" id="atencion" rows="3" placeholder="Abierto cada día desde el 18 de marzo hasta el 31 de octubre cerrado los lunes"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -86,17 +86,18 @@
                                     <div class="col">
                                         <div class="tab-content" id="myTabContent">
                                           <div class="tab-pane fade show active" id="hogar" role="tabpanel" aria-labelledby="hogar-tab">
-                                                <div class="form-group">
-                                                    <input  type="file" class="form-control-file" id="imagenPlato" aria-describedby="fileHelp">
+                                                <div class="form-group" >
+                                                    <img class="w-25 h-25" src="img/poli.jpeg">
+                                                    <input name="imagenPlato" type="file" class="form-control-file" id="imagenPlato" name="imagenPlato" aria-describedby="fileHelp">
                                                     <small id="fileHelp" class="form-text text-muted"> Subir imagen del plato jpg or png</small>
                                                 </div>
                                                 <div class="form-group">
                                                     <label id="nameplato" for="nameplato" class="col-form-label">Nombre de Plato:</label>
-                                                    <input class="form-control" type="text" id="nameplato" placeholder="Nombre del plato">
+                                                    <input name="nameplato" class="form-control" type="text" id="nameplato" placeholder="Nombre del plato">
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="categoria" class="col-form-label">Escoja una categoria:</label>
-                                                    <select id="categoria" class="form-control" >
+                                                    <select name="categoria" id="categoria" class="form-control" >
                                                         <option>Postres</option>
                                                         <option>Entrada</option>
                                                         <option>Comida Rapida</option>
@@ -104,7 +105,7 @@
                                                 </div>
                                                 <div class="form-group">
                                                     <label for="descripPlato" class="col-form-label">Descripcion del plato</label>
-                                                    <textarea id="descripPlato" class="form-control" id="atencion" rows="3" placeholder="Abierto cada día desde el 18 de marzo hasta el 31 de octubre cerrado los lunes"></textarea>
+                                                    <textarea name="descripPlato" id="descripPlato" class="form-control" id="atencion" rows="3" placeholder="Abierto cada día desde el 18 de marzo hasta el 31 de octubre cerrado los lunes"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -156,8 +157,8 @@
 
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/popper.min.js"></script>
-<!-- <script src="js/jquery-validation/dist/jquery.validate.min.js"></script> -->
-<!-- <script src="js/jquery-validation/dist/localization/messages_es.js"></script> -->
+<script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="js/jquery-validation/dist/localization/messages_es.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/tether.min.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
 

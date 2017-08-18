@@ -214,6 +214,8 @@ $(document).ready(function () {
             console.log("success");
             console.log(data);
             alert("Gracias por tu sugerencia");
+            $('#email').val("");
+            $('#sugerencia').val("");
         })
         .fail(function() {
             console.log("error");

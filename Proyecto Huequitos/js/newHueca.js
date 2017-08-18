@@ -15,6 +15,35 @@ $(document).ready(function(){
             $bgobj.css({ backgroundPosition: coords });
         });
     });
+    $('#nuevahueca').validate({
+        rules:{
+            imagenHueca: {
+                required: true
+            },
+            nombreHueca:{
+                required: true
+            },
+            direccion:{
+                required: true
+            },
+            atencion:{
+                required: true
+            },
+            imagenPlato: {
+                required: true
+            },
+            nameplato: {
+                required: true
+            },
+            categoria: {
+                required: true
+            },
+            descripPlato : {
+                required: true
+            }
+        },
+        messages:{}
+    });
     $('#registro').on('click', function(event) {
         event.preventDefault();
         console.log(intlatitud);
@@ -63,16 +92,6 @@ $(document).ready(function(){
                 console.log("complete");
             });
     });
-
-    google.maps.event.addDomListener(window, 'load', initilize);
-    function initilize(){
-        var autocomplete =  new google.maps.places.Autocomplete(document.getElementById('direccion'));
-        google.maps.event.addListener(autocomplete,'place_changed',function(){
-            var places = autocomplete.getPlace();
-            console.log(places.formatted_address);
-            intlatitud = places.geometry.location.lat();
-            intlongitud = places.geometry.location.lng();
-        });
 
     }
 });

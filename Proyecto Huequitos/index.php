@@ -14,7 +14,7 @@
     <div id="#" class="row videoMenu">
         <div class="col p-0">
             <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5" style="    background-color: rgba(255, 0, 0, 0.17);">
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5" style="    background-color: rgba(0, 0, 0, 0.17);">
                     <a class="navbar-brand w-25" href="index.php">
                         <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
                     </a>
@@ -193,17 +193,18 @@
                     </div>
                 </div>
             </div>
-            <!--div class="row text-center my-3">
-                <div class="col align-self-center">
-                    <button href="RegistroUsuario.php" type="button" class="btn btn-secondary over">REGISTRATE</button>
+            <div class="row text-center my-3">
+                <div class="col align-self-center offset-1">
+                    <!--button href="RegistroUsuario.php" type="button" class="btn btn-secondary over">REGISTRATE</button-->
                 </div>
-            </div-->
+            </div>
         </div>
     </div>
     <div id="footer" class="row justify-content-center pt-5 py-5">
         <div class="col-12 pb-4">
             <div class="row px-5 pb-sm-0 pb-md-5 pb-lg-5 pb-xl-5">
                 <div class="col pb-5 px-5 titulos text-sm-center text-md-left text-lg-left text-xl-left">
+                <br/>
                     <h1 class="tittle">Contactos / Sugerencias</h1>
                     <hr/>
                 </div>
