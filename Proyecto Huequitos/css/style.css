@@ -281,6 +281,18 @@ hr{
     margin-left: auto;
 }
 
+@media(max-width:767px) {
+    #registro{
+        margin-top: 0px;
+        font-size: 8px;
+    }
+
+    #titulo h2{
+        margin-top: 0px;
+    }
+
+}
+
 #servicios h1{
     color:black;
 }

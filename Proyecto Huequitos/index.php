@@ -114,7 +114,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                        <a href="perfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4">
@@ -135,7 +135,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
+                        <a href="perfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse  p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
             </div>
@@ -193,11 +193,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row text-center my-3">
+            <!--div class="row text-center my-3">
                 <div class="col align-self-center">
                     <button href="RegistroUsuario.php" type="button" class="btn btn-secondary over">REGISTRATE</button>
                 </div>
-            </div>
+            </div-->
         </div>
     </div>
     <div id="footer" class="row justify-content-center pt-5 py-5">

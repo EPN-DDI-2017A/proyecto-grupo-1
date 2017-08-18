@@ -28,7 +28,7 @@
             </nav>
             <div class="row busquedaRegistro justify-content-center w-100">
                 <div class="jumbotron jumbotron-fluid justify-content-center p-sm-0 p-md-0 pt-lg-5 pt-xl-5" style="background: transparent">
-                    <div class="container">
+                    <div class="container" id="titulo">
                         <h2 class="display-4 mt-5 text-white text-center">Registrate</h2>
                         <div class="container form-registro w-100 mt-5 justify-content-center">
                             <form id="registro" class="justify-content-center">
