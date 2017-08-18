@@ -14,7 +14,7 @@
     <div id="#" class="row videoMenu">
         <div class="col p-0">
             <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5">
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5" style="    background-color: rgba(255, 0, 0, 0.17);">
                     <a class="navbar-brand w-25" href="index.php">
                         <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
                     </a>

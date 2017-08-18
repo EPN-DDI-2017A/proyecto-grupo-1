@@ -16,6 +16,10 @@
 				"usuario" => "tatiana",
 				"password"   => "12345"
 			],
+			[
+				"usuario" => "carlos",
+				"password"   => "12345"
+			],
 	];
 	if($_POST) {
 	    // Procesamos los datos y los guardamos en la BDD
