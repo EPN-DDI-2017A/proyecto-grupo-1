@@ -33,7 +33,7 @@
                 </nav>
                 <div id="buscadoroculto" class="col-12 w-100 fixed-top buscadorbarra">
                     <div class="row d-flex w-100 m-0 justify-content-center">
-                        <div class="col-1 text-right">
+                        <div id="contornobusqueda" class="col-1 text-right">
                             <i id="huequiar" class="fa fa-search fa-2x" aria-hidden="true"></i>
                         </div>
                         <div class="col-10 p-0">
@@ -54,7 +54,7 @@
                             <p class="mt-5 mb-0 display-5 frase">No tienes cuenta registraste Ya!!!...</p>
                             <p class="p-0 display-5 frase">Entra a tu perfil y califica tu hueca favorita</p>
                             <p class="lead">
-                                <a class="btn" href="RegistroUsuario.html" role="button" style="background: orange; border: none; color: white">Registrate</a>
+                                <a class="btn" href="RegistroUsuario.php" role="button" style="background: orange; border: none; color: white">Registrate</a>
                             </p>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                     <div class="text-right botonGO">
-                        <a href="#" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                        <a href="perfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4">
@@ -195,7 +195,7 @@
             </div>
             <div class="row text-center my-3">
                 <div class="col align-self-center">
-                    <button type="button" class="btn btn-secondary over">REGISTRATE</button>
+                    <button href="RegistroUsuario.php" type="button" class="btn btn-secondary over">REGISTRATE</button>
                 </div>
             </div>
         </div>

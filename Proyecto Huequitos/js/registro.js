@@ -21,12 +21,68 @@ $(document).ready(function () {
         '       </div>'+
         '       <div class="form-group row justify-content-end">'+
         '           <div class="boton">'+
-        '               <a type="submit" class="btn" style="background: orange; border: none; color: white" href="PerfilUsuario.html">Iniciar Sesion</a>'+
+        '               <a type="submit" class="btn" style="background: orange; border: none; color: white" href="PerfilUsuario.php">Iniciar Sesion</a>'+
         '           </div>'+
         '       </div>'+
         '   </form>'+
         '</div>'
     })
+
+    $('[data-toggle="popover"]').on('shown.bs.popover', function (e) {
+        e.preventDefault();
+        console.log("aparecio");
+        $("html").addClass("noscroll");
+        $("#forminiciosesion").validate({
+            rules:{
+                usuario:{
+                    required: true
+                },
+                pass:{
+                    required: true
+                }
+            },
+            messages:{
+                usuario:{
+                    required: "Ingrese su nombre de usuario.",
+                },
+                pass:{
+                    required: "Ingrese su contraseña.",
+                }
+            }
+        });
+        $('#iniciarSesion').on('click', function (e) {
+        e.preventDefault();
+        console.log($('#usuario').val());
+        if ($("#forminiciosesion").valid()) {
+            $.ajax({
+                url: 'iniciarSesion.php',
+                type: 'post',
+                dataType: 'json',
+                data: {
+                    usuario: $('#usuario').val(),
+                    password: $('#pass').val()
+                },
+            })
+                .done(function(data) {
+                    console.log("success");
+                    console.log(data);
+                    
+                    if(data.error == 1){
+                        alert("Usuario y Contraseña Incorrectas")
+                    }else{
+                        localStorage.setItem('usuario', JSON.stringify(data));
+                        window.location.href = 'http://localhost/Huequitos/PerfilUsuario.php';
+                    }
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
+        }
+    });
+    });
 
     //video codigo jquery
     scaleVideoContainer();
@@ -87,23 +143,46 @@ $(document).ready(function () {
     // registro de usuario
     $("#botonRegistrar").on("click",function (event){
         event.preventDefault();
-        console.log($("#usuario").val());
-        console.log($("#password").val());
-        console.log($("#passwordrepetir").val());
+        console.log($("#usuarioRegis").val());
+        console.log($("#passwordRegis").val());
+        console.log($("#passwordrepetirRegis").val());
+        $.ajax({
+                url: 'iniciarSesion.php',
+                type: 'get',
+                dataType: 'json',
+                data: {
+                    usuarioRegis: $('#usuarioRegis').val(),
+                    passwordRegis: $('#passwordRegis').val()
+                },
+            })
+                .done(function(data) {
+                    console.log("success");
+                    console.log(data);
+                    alert(data);
+                    $("#usuarioRegis").val("");
+                    $("#passwordRegis").val("");
+                    $("#passwordrepetirRegis").val("");
+                })
+                .fail(function() {
+                    console.log("error");
+                })
+                .always(function() {
+                    console.log("complete");
+                });
     });
     $("#registro").validate({
         rules:{
-            usuario:{
+            usuarioRegis:{
                 required: true
             },
-            password:{
+            passwordRegis:{
                 required: true,
                 minlength: 5
             },
-            passwordrepetir:{
+            passwordrepetirRegis:{
                 required: true,
                 minlength: 5,
-                equalTo: '#password'
+                equalTo: '#passwordRegis'
             }
         },
         messages:{}

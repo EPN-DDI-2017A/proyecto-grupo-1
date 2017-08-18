@@ -40,7 +40,7 @@ $(document).ready(function(){
             .done(function(data) {
                 console.log("success");
                 console.log(data);
-
+                alert("Hueca ingresada Satisfactoriamente !! :)")
                 // var clase_msg = 'alert-success';
                 // if (data.error) {
                 //     clase_msg = 'alert-danger';

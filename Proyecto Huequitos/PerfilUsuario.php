@@ -18,11 +18,11 @@
                     </a>
                     <div class="row d-flex w-100 d-lg-flex d-sm-none justify-content-center">
                         <div class="col-2">
-                            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                            <i id="huequiar" class="fa fa-search fa-2x" aria-hidden="true"></i>
                         </div>
                         <div class="col-8 p-0">
                             <form class="form-inline my-lg-0">
-                                <input class="form-control mr-sm-2 mr-5 w-100" type="text" placeholder="Busca tu Hueca">
+                                <input id="nuevaBusquedatext" class="form-control mr-sm-2 mr-5 w-100" type="text" placeholder="Busca tu Hueca">
                             </form>
                         </div>
                     </div>
@@ -31,11 +31,11 @@
                     </button>
                     <div class="row d-flex w-100 d-lg-none justify-content-center">
                         <div class="col-2">
-                            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+                            <i id="huequiaroculto" class="fa fa-search fa-2x" aria-hidden="true"></i>
                         </div>
                         <div class="col-8 p-0">
                             <form class="form-inline my-lg-0">
-                                <input class="form-control mr-sm-2 mr-5 w-100" type="text" placeholder="Busca tu Hueca">
+                                <input id="nuevaBusquedatextoculto"  class="form-control mr-sm-2 mr-5 w-100" type="text" placeholder="Busca tu Hueca">
                             </form>
                         </div>
                     </div>
@@ -43,8 +43,8 @@
                         <div id="navbarNavAltMarkup">
                             <div class="navbar-nav">
                                 <a class="nav-item nav-link active" href="#">Perfil <span class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link" href="nuevaHueca.html">Crear Hueca</a>
-                                <a class="nav-item nav-link" href="index.html">Cerrar Sesión</a>
+                                <a class="nav-item nav-link" href="nuevaHueca.php">Crear Hueca</a>
+                                <a id="cerrarSesion" class="nav-item nav-link">Cerrar Sesión</a>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                 <div class="card-perfil">
                     <div class="media px-3">
                         <div class="media-body align-self-center">
-                            <h4 class="mt-0 tittle"><strong>Fernanda Mora</strong></h4>
+                            <h4 id="nombreUser" class="mt-0 tittle" style="text-transform: uppercase;"></h4>
                         </div>
                         <img class="d-flex mr-3 img3 w-25" src="img/user4.png" alt="Generic placeholder image">
                     </div>
@@ -160,7 +160,7 @@
                                     </div>
                                 </div>
                                 <div class="text-right botonGO">
-                                    <a href="PerfilHueca.html" class="btn rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                                    <a href="PerfilHueca.php" class="btn rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4">
@@ -232,7 +232,7 @@
                                     </div>
                                 </div>
                                 <div class="text-right botonGO">
-                                    <a href="PerfilHueca.html" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
+                                    <a href="PerfilHueca.php" class="btn btn-primary rounded-circle animated infinite pulse p-4 text-center" id="bt1">go</a>
                                 </div>
                             </div>
                             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center p-4">
@@ -315,9 +315,10 @@
     </div>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/jquery-3.2.1.slim.min.js"></script>
+<script src="js/js.cookie.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/popper.min.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/tether.min.js"></script>
 <script src="css/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
-<script src="js/app.js"></script>
+<script src="js/perfil.js"></script>
 </body>
 </html>

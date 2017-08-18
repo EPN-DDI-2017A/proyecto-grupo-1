@@ -21,7 +21,7 @@
             <div class="row menu " id="menup">
                 <div class="col">
                     <nav class="navbar navbar-expand-lg  navbar-light px-5" >
-                        <a class="navbar-brand w-25" href="PerfilUsuario.html">
+                        <a class="navbar-brand w-25" href="PerfilUsuario.php">
                             <img class="animated zoomIn img-fluid w-50" src="img/final.png" >
                         </a>
                         <button class="navbar-toggler navbar-toggler-right p-3" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

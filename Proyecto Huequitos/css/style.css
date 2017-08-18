@@ -85,6 +85,11 @@ hr{
     border-bottom-color: crimson !important;
 }
 
+.popover.bs-popover-bottom .arrow::after, .popover.bs-popover-auto[x-placement^="bottom"] .arrow::after {
+    top: -11px;
+    border-bottom-color: crimson !important;
+}
+
 .triangulo {
     width: 0;
     height: 0;
