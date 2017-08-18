@@ -35,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerfilHueca.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PerfilHueca.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PerfilHueca.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
@@ -87,8 +87,8 @@
       <file leaf-file-name="registro.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/registro.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+            <state relative-caret-position="-294">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding>
                 <element signature="e#325#1216#0" expanded="false" />
                 <element signature="e#1472#1686#0" expanded="false" />
@@ -96,6 +96,18 @@
                 <element signature="e#1931#2134#0" expanded="false" />
                 <element signature="e#2177#2957#0" expanded="false" />
                 <marker date="1502984292770" expanded="true" signature="1023:1069" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResultadosHuecas.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HenryRojas/ResultadosHuecas.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="85" lean-forward="true" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+              <folding>
+                <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -221,7 +233,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="css">
+            <PATH_ELEMENT USER_OBJECT="HenryRojas">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -354,12 +366,12 @@
       <workItem from="1502804973187" duration="31702000" />
       <workItem from="1502918768217" duration="11933000" />
       <workItem from="1502981584240" duration="12630000" />
-      <workItem from="1503002857279" duration="293000" />
+      <workItem from="1503002857279" duration="2787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56558000" />
+    <option name="totallyTimeSpent" value="59052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -557,6 +569,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -592,13 +607,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/registrodeUsuario.js" />
-    <entry file="file://$PROJECT_DIR$/HenryRojas/ResultadosHuecas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="54" column="63" lean-forward="true" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -663,31 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/newHueca.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/registro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="e#325#1216#0" expanded="false" />
-            <element signature="e#1472#1686#0" expanded="false" />
-            <element signature="e#1724#1889#0" expanded="false" />
-            <element signature="e#1931#2134#0" expanded="false" />
-            <element signature="e#2177#2957#0" expanded="false" />
-            <marker date="1502984292770" expanded="true" signature="1023:1069" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PerfilHueca.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
@@ -719,6 +702,41 @@
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#script#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/newHueca.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/registro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#325#1216#0" expanded="false" />
+            <element signature="e#1472#1686#0" expanded="false" />
+            <element signature="e#1724#1889#0" expanded="false" />
+            <element signature="e#1931#2134#0" expanded="false" />
+            <element signature="e#2177#2957#0" expanded="false" />
+            <marker date="1502984292770" expanded="true" signature="1023:1069" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HenryRojas/ResultadosHuecas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="85" lean-forward="true" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding>
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
